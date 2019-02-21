@@ -11,5 +11,3 @@ add_executable(pcl_test pcl_test.cpp)
 
 target_link_libraries (pcl_test ${PCL_LIBRARIES})
 
-install(TARGETS pcl_test RUNTIME DESTINATION bin)
-
